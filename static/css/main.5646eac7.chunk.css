@@ -1,0 +1,2 @@
+body{margin:0;padding:0;background:linear-gradient(135deg,#ff7cc1,#e9e4ff);display:flex;align-items:center;justify-content:center;height:100vh;text-align:center;font-size:2.5rem}body .kitty{background-color:transparent;border:none;background-image:url(/pwa-app-hello-kitty/static/media/kitty.ec7b3f00.gif)}body .kitty,body .kitty .bg{width:100%;height:25rem;background-position:50%;background-repeat:no-repeat;background-size:contain}body .kitty .bg{border:1px solid red}
+/*# sourceMappingURL=main.5646eac7.chunk.css.map */
