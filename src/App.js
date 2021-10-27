@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './App.sass';
 
 function App() {
+
+  const onClick = () => {
+    console.log(document.getElementsByClassName('principal-box'))
+    // document.getElementsByClassName('principal-box').style.border('1px solid black')
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="principal-box">
+      <code>¡Bienvenido a mi primera app!</code>
+      
+      <button className="kitty" type="button" onClick={onClick}>
+      </button>
     </div>
   );
 }
